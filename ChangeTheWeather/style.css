@@ -1,0 +1,118 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+   
+    background: rgb(36, 98, 233);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    display:flex;
+    flex-direction: column;
+    color:white;
+}
+#container h1{
+    font-size: 50px;
+    border: 7px solid black;
+    color: black;
+    padding: 50px 0px 50px 0px;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-right: 20px;
+    background:rgba(61, 170, 234, 0.677);
+}
+
+
+#buttons h2{
+    padding:30px 0px 0px 220px;
+    text-shadow: 
+        5px 5px 5px rgba(0, 0, 0, 0.5), /* Horizontal and vertical offset, blur radius, color */
+        -5px -5px 5px rgba(15, 7, 7, 0.5); /* Multiple shadows separated by commas */
+        
+    }
+
+img{
+    width:180px;
+    height:180px;
+}
+ #summer{
+    width: 240px;
+    height:240px;
+}
+#winter{
+    width: 160px;
+    height:160px;
+}
+#windy{
+    width: 240px;
+    height:240px;
+}
+li{
+    display:flex;
+    float:left;
+    list-style: none;
+    padding:30px;
+}
+button{
+    width:100px;
+    height:70px;
+    background:rgba(10, 216, 154, 0.789);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   /* background-color: #f0f0f0;*/
+}
+
+#summervideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+#rainyvideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+#wintervideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+#windyvideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add background color with opacity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
